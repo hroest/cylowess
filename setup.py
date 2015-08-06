@@ -1,8 +1,8 @@
 '''
 Setup file for cylowess.pyx, a faster lowess smoother in Cython.
 '''
-from distutils.core import setup
-from distutils.extension import Extension
+from setuptools import setup
+from setuptools import Extension
 import numpy as np
 #    from Cython.Distutils import build_ext # uncomment for development
 
